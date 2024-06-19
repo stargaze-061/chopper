@@ -18,7 +18,7 @@ import 'package:meta/meta.dart';
 base class ChopperClient {
   /// Base URL of each request of the registered services.
   /// E.g., the hostname of your service.
-  final Uri baseUrl;
+  Uri baseUrl;
 
   /// The [http.Client] used to make network calls.
   final http.Client httpClient;
